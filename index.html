@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>تیم ما</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <canvas id="particle-canvas"></canvas>
+  <div class="wrap">
+    <h1 id="site-name">در حال بارگذاری...</h1>
+    <p id="site-tagline"></p>
+  </div>
+</header>
+
+<section id="skills-section">
+  <div class="wrap">
+    <h2 id="skills-title"></h2>
+    <div id="skills-list"></div>
+  </div>
+</section>
+
+<section id="team-section">
+  <div class="wrap">
+    <h2 id="team-title"></h2>
+    <div class="team-grid" id="team-list"></div>
+  </div>
+</section>
+
+<section id="projects-section">
+  <div class="wrap">
+    <h2 id="projects-title"></h2>
+    <div class="sphere-wrap" id="sphere-wrap">
+      <div class="sphere" id="sphere"></div>
+    </div>
+    <p class="sphere-hint" id="projects-hint"></p>
+  </div>
+</section>
+
+<section id="contact-section">
+  <div class="wrap">
+    <h2 id="contact-title"></h2>
+    <div class="contact-card" id="contact-card"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" id="footer-text"></div>
+</footer>
+
+<div class="modal-backdrop" id="modal-backdrop">
+  <div class="modal">
+    <h3 id="modal-title"></h3>
+    <p id="modal-desc"></p>
+    <button class="close" onclick="closeModal()">بستن</button>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+{
+  "site": {
+    "name": "تیم ما",
+    "tagline": "حل مسائل چندوجهی با بینایی ماشین، هوش مصنوعی و ایجنت‌ها"
+  },
+  "labels": {
+    "skillsTitle": "مهارت‌های تیم",
+    "teamTitle": "اعضای تیم",
+    "projectsTitle": "پروژه‌ها",
+    "projectsHint": "برای چرخاندن، بکشید",
+    "contactTitle": "تماس با ما",
+    "footerText": ""
+  },
+  "skills": [
+    { "name": "Computer Vision", "value": 90 },
+    { "name": "LLM / Agent", "value": 85 },
+    { "name": "Development", "value": 88 },
+    { "name": "MLOps / Deploy", "value": 75 }
+  ],
+  "team": [
+    {
+      "name": "امیر",
+      "role": "CV Engineer",
+      "initials": "AM",
+      "bio": "توسعه سیستم‌های بینایی ماشین صنعتی و پایپلاین‌های تولید.",
+      "linkedin": "",
+      "github": ""
+    },
+    {
+      "name": "عضو تیم",
+      "role": "LLM / Agent Engineer",
+      "initials": "SH",
+      "bio": "طراحی و پیاده‌سازی ایجنت‌های هوشمند.",
+      "linkedin": "",
+      "github": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "تشخیص پلاک خودرو",
+      "category": "CV",
+      "description": "سیستم تشخیص و ردیابی پلاک خودرو برای جاده‌های ایران، در حال استفاده در پروژه مشتری واقعی.",
+      "link": ""
+    },
+    {
+      "title": "دستیار دیتاست صنعتی",
+      "category": "CV",
+      "description": "پایپلاین مدیریت و برچسب‌گذاری دیتاست‌های صنعتی با فرمت YOLO.",
+      "link": ""
+    },
+    {
+      "title": "پایش ایمنی محیط کار",
+      "category": "CV",
+      "description": "پایپلاین تولیدی برای پایش ایمنی صنعتی با بینایی ماشین.",
+      "link": ""
+    }
+  ],
+  "contact": [
+    { "label": "ایمیل", "value": "team@example.com" },
+    { "label": "تلگرام", "value": "@teamhandle" },
+    { "label": "گیت‌هاب", "value": "github.com/team" }
+  ]
+}
